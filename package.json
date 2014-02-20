@@ -1,21 +1,14 @@
 {
-  "name": "autosuggest",
+  "name": "component-autosuggest",
   "description": "Autosuggest values for text inputs",
-  "keywords": [],
   "version": "0.0.3",
+  "keywords": [],
+  "main": "autosuggest.js",
   "dependencies": {
-    "bind-component": "*",
-    "event-component": "*",
-    "find": "component/find",
-    "select": "stagas/select"
+    "component-bind": "git://github.com/npmcomponent/component-bind.git",
+    "component-find": "git://github.com/npmcomponent/component-find.git",
+    "component-event": "git://github.com/npmcomponent/component-event.git",
+    "stagas-select": "git://github.com/npmcomponent/stagas-select.git"
   },
-  "component": {
-    "scripts": {
-      "autosuggest/index.js": "autosuggest.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/autosuggest.git"
-  }
+  "license": "MIT"
 }

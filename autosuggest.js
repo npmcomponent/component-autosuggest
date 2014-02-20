@@ -3,10 +3,10 @@
  * Module dependencies.
  */
 
-var bind = require('bind');
-var find = require('find');
-var events = require('event');
-var select = require('select');
+var bind = require('component-bind');
+var find = require('component-find');
+var events = require('component-event');
+var select = require('stagas-select');
 
 /**
  * Module exports.
